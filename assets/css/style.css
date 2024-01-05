@@ -25,7 +25,7 @@ body {
     color: #d9dcd6;
 }
 /* Gives font size and margin to header */
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +33,11 @@ body {
     font-size: 20px;
 }
 /* no effect on ul elements in header */
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 /* displays style of link*/
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
