@@ -1,3 +1,9 @@
+/* Asterisk (*) selects all items in an HTML file*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 /* Body focuses on the body section of the HTML file*/
 body {
     background-color: #d9dcd6;
@@ -80,15 +86,17 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Margin for title */
+/* font color and margin for title */
 .benefit-lead {
     margin-bottom: 32px;
+    color: #ffffff;
 }
-/* Margin for title */
+/* font color and margin for title */
 .benefit-brand {
     margin-bottom: 32px;
+    color: #ffffff;
 }
-/* Margin for title */
+/* font color and margin for title */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -140,12 +148,30 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 /* creating a margin, padding, height and font family as well as background color and color for the social media marketing section*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* max heigh for potential stretched image*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* max height for potential stretched image*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* shows max height for if/when website is stretched. */
+.social-media-marketing img {
+    max-height: 200px;
 }
 /* margin size and font size for this portion */
 .search-engine-optimization h2 {
